@@ -1,0 +1,50 @@
+<!-- MyKirby Teacher Input HTML -->
+<!-- Written by Nick Pleatsikas -->
+
+<!-- Scripts -->
+<script type="text/javascript" src="jquery-2.1.0.min.js"></script>
+<script type="text/javascript" src="input.js"></script>
+<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="datepicker/js/bootstrap-datepicker.js"></script>
+<script type="text/javascript" src="dropdown/js/bootstrap-multiselect.js"></script>
+
+<!-- Stylesheets -->
+<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"/>
+<link rel="stylesheet" href="datepicker/css/datepicker.css"/>
+<link rel="stylesheet" href="inputcss.css"/>
+<link rel="stylesheet" href="dropdown/css/bootstrap-multiselect.css"/>
+
+<!-- HTML Head -->
+<head>
+	<title>Teacher Input BETA</title>
+</head>
+
+<!-- HTML Body -->
+<body>
+	<div class="selectors">
+		<select id="dropDown" class="form-control">
+			<option value="announcement">Announcement</option>
+			<option value="calendar">Calendar</option>
+			<option value="file">File</option>
+			<option value="homework">Homework</option>
+			<option value="test/proj">Test/Project</option>
+		</select>
+	</div>
+	<div class="dropCheckbox">
+		<select class="multiselect" multiple="multiple">
+			<option value="1">Period 1</option>
+			<option value="2">Period 2</option>
+			<option value="3">Period 3</option>
+			<option value="4">Period 4</option>
+			<option value="5">Period 5</option>
+			<option value="6">Period 6</option>
+			<option value="7">Period 7</option>
+		</select>
+	</div>
+	<div class="inputs">
+		<!-- Stuff appended here -->
+	</div>
+	<div class="submit">
+		<button id="button" class="btn btn-default">Submit</button>
+	</div>
+</body>

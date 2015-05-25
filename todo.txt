@@ -1,0 +1,7 @@
+To Do:
+
+- Write API
+
+- Add filepicker
+
+- Add class/club/sports team/etc. selector for teachers (add to period select)

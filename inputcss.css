@@ -1,0 +1,15 @@
+.selectors {
+	padding-left: 5px;
+}
+
+.selectors, .dropCheckbox, .inputs {
+	float: left;
+	padding-right: 5px;
+}
+
+.dropCheckbox, .selectors, .inputs, .submit {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+/* Need to add box that scales itself surrounding inputs */
